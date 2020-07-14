@@ -13,7 +13,7 @@ description = "A Man and his question for mediocrity and happy"
 
 ## Set one of:
 # gravatar = "soho@example.com"
-profilePicture = "images/profile.png"
+profilePicture = "images/profile_pic.png"
 
 copyright = "JSCaughlin"
 license = "CC BY-SA 4.0"
