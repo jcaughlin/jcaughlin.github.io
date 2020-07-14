@@ -1,7 +1,7 @@
 baseURL = "https://jcaughlin.github.io"
 theme = "soho"
 languageCode = "en-us"
-title = "Joe Caughlin-A Man and his stuff"
+title = "A Man and his stuff"
 enableInlineShortcodes = true
 
 summarylength = 10
@@ -9,11 +9,11 @@ enableEmoji = true
 
 [params]
 author = "JS Caughlin"
-description = "A Man and his question for mediocrity and happy"
+description = "A quest for mediocrity and happy"
 
 ## Set one of:
 # gravatar = "soho@example.com"
-profilePicture = "images/profile_pic.png"
+profilePicture = "profile_pic.png"
 
 copyright = "JSCaughlin"
 license = "CC BY-SA 4.0"
