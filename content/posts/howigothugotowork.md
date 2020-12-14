@@ -1,5 +1,5 @@
 ---
-title: "Why Hugo"
+title: "Why Hugo?"
 date: 2020-12-14T15:18:41-06:00
 draft: false
 ---

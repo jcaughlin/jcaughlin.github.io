@@ -1,5 +1,5 @@
 ---
-title: "I made a site and it needed some comment"
+title: "I made a site and it needed some content."
 date: 2020-12-14T15:03:09-06:00
 draft: false
 ---
