@@ -3,6 +3,7 @@ theme = "soho"
 languageCode = "en-us"
 title = "A Man and his stuff"
 enableInlineShortcodes = true
+publishDir = "docs"
 
 summarylength = 10
 enableEmoji = true
@@ -13,7 +14,7 @@ description = "A quest for mediocrity and happy"
 
 ## Set one of:
 # gravatar = "soho@example.com"
-profilePicture = "profile_pic.png"
+profilePicture = "images/profile_pic.png"
 
 copyright = "JSCaughlin"
 license = "CC BY-SA 4.0"

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A Man and his stuff</title>
+    <link>https://jcaughlin.github.io/</link>
+    <description>Recent content on A Man and his stuff</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Dec 2020 15:18:41 -0600</lastBuildDate><atom:link href="https://jcaughlin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Hugo?</title>
+      <link>https://jcaughlin.github.io/posts/howigothugotowork/</link>
+      <pubDate>Mon, 14 Dec 2020 15:18:41 -0600</pubDate>
+      
+      <guid>https://jcaughlin.github.io/posts/howigothugotowork/</guid>
+      <description>Why Hugo?  I was hoping to learn some Go. This is being hosted by github pages, so I wanted to learn more about static page generators.</description>
+    </item>
+    
+    <item>
+      <title>I made a site and it needed some content.</title>
+      <link>https://jcaughlin.github.io/posts/iamhugo/</link>
+      <pubDate>Mon, 14 Dec 2020 15:03:09 -0600</pubDate>
+      
+      <guid>https://jcaughlin.github.io/posts/iamhugo/</guid>
+      <description>When one is stuck at home due to the Covid&amp;rsquo;s and busy chasing two 9 year olds around and yet needs to stay up to date on technologies and show that one is employable, maybe they should create some things for people to look at.</description>
+    </item>
+    
+    <item>
+      <title>This is about me.</title>
+      <link>https://jcaughlin.github.io/about/</link>
+      <pubDate>Tue, 14 Jul 2020 14:05:03 -0500</pubDate>
+      
+      <guid>https://jcaughlin.github.io/about/</guid>
+      <description>i like to do somethings.
+other things i don&amp;rsquo;t like to do.</description>
+    </item>
+    
+  </channel>
+</rss>
