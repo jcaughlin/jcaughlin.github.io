@@ -1,6 +1,8 @@
 # Overview
 
-This site is my personal experience using: [<img src="https://github.com/jcaughlin/jcaughlin.github.io/blob/master/static/images/hugo-logo-wide.svg" alt="Hugo" width=200>](https://gohugo.io)
+This site is my personal experience using: 
+
+[<img src="https://github.com/jcaughlin/jcaughlin.github.io/blob/master/static/images/hugo-logo-wide.svg" alt="Hugo" width=200>](https://gohugo.io)
 
 <p>Hugo has nice things to say about Hugo:</p>
 
@@ -54,7 +56,7 @@ git init
 ```
 There are much better places to get an opinion on a good .gitignore file would be for a hugo project. If you want, copy mine. If you think you can do better, let me know. I am not an expert at this.
 
-**Question:** How many times have you tried to add a remote repository and got an error message because you initialized your project, but forgot to do an initial commit? I swear every other time I do this.
+**Question:* * How many times have you tried to add a remote repository and got an error message because you initialized your project, but forgot to do an initial commit? I swear every other time I do this.
 
 ### Step 5: Add a Theme
 
