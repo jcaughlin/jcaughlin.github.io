@@ -1,7 +1,6 @@
 ---
 title: "Hugo and GitHub Pages-My Definitive Opinion"
 date: 2020-12-21T17:01:15-06:00
-draft: false
 ---
 So you want to deploy a site on GitHug Pages and you don't want to use Jekyll? Guess what? You don't have to! They can't make you do anything.
 I don't think I am intending this to be a "how-to" guide, but I thought I would document some of the finer points, both for the reader's amusement, but also so that I will have a repository of my notes for when I invariably forget something I did and need to remind myself
