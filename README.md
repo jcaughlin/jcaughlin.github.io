@@ -1,6 +1,6 @@
 # Overview
 
-This site is my personal experience using: [<img src="/Users/josephcaughlin/jcaughlin.github.io/github-pages-content/static/images/hugo-logo-wide.svg" alt="Hugo" width=200>](https://gohugo.io)
+This site is my personal experience using: [<img src="jcaughlin.github.io/static/images/hugo-logo-wide.svg" alt="Hugo" width=200>](https://gohugo.io)
 
 <p>Hugo has nice things to say about Hugo:</p>
 
