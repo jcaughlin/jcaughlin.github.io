@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.79.0" />
+
+  <title>Hugo and GitHub Pages-My Definitive Opinion &middot; A Man and His Stuff</title>
+
+  <meta name="description" content="" />
+
+  
+
+<meta itemprop="name" content="Hugo and GitHub Pages-My Definitive Opinion">
+<meta itemprop="description" content="So you want to deploy a site on GitHug Pages and you don&rsquo;t want to use Jekyll?">
+<meta itemprop="datePublished" content="2020-12-21T17:01:15-06:00" />
+<meta itemprop="dateModified" content="2020-12-21T17:01:15-06:00" />
+<meta itemprop="wordCount" content="909">
+
+
+
+<meta itemprop="keywords" content="" />
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo and GitHub Pages-My Definitive Opinion"/>
+<meta name="twitter:description" content="So you want to deploy a site on GitHug Pages and you don&rsquo;t want to use Jekyll?"/>
+
+
+<meta property="og:title" content="Hugo and GitHub Pages-My Definitive Opinion" />
+<meta property="og:description" content="So you want to deploy a site on GitHug Pages and you don&rsquo;t want to use Jekyll?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jcaughlin.github.io/posts/more-hugo/" />
+<meta property="article:published_time" content="2020-12-21T17:01:15-06:00" />
+<meta property="article:modified_time" content="2020-12-21T17:01:15-06:00" />
+
+
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/print.css"
+        media="print">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/poole.css">
+
+  <link type="text/css"
+        rel="stylesheet"
+        href="/css/hyde.css">
+
+  
+
+
+  <link type="text/css" rel="stylesheet" href="/css/blog.css">
+
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap">
+
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+        crossorigin="anonymous" />
+
+  <link rel="apple-touch-icon-precomposed"
+        sizes="144x144"
+        href="/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  </head>
+<body>
+  <aside class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      
+        
+        <div class="author-image">
+          <img src="/images/profile_pic.png" class="img-circle img-headshot center" alt="Profile Picture">
+        </div>
+        
+      
+
+      <h1>A Man and His Stuff</h1>
+
+      
+      <p class="lead">A quest for Mediocrity and Clean Air</p>
+      
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li>
+          <a href="https://jcaughlin.github.io">Home</a>
+        </li>
+        <li>
+          <a href="/posts/">Posts</a>
+        </li><li>
+          <a href="/about/">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="social-icons">
+      
+      <a href="https://www.linkedin.com/in/jcaughlin/" rel="me" title="Linkedin" target="_blank">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+      </a>
+      
+      <a href="https://github.com/jcaughlin" rel="me" title="GitHub" target="_blank">
+        <i class="fab fa-github" aria-hidden="true"></i>
+      </a>
+      
+      <a href="@JSCaughlin" rel="me" title="Twitter" target="_blank">
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+      </a>
+      
+    </section>
+  </div>
+</aside>
+
+
+  <main class="content container">
+  <div class="post">
+  <h1>Hugo and GitHub Pages-My Definitive Opinion</h1>
+
+  <div class="post-date">
+    <time datetime="2020-12-21T17:01:15-0600">Dec 21, 2020</time> &middot; 5 min read
+  </div>
+
+  <p>So you want to deploy a site on GitHug Pages and you don&rsquo;t want to use Jekyll? Guess what? You don&rsquo;t have to! They can&rsquo;t make you do anything.
+I don&rsquo;t think I am intending this to be a &ldquo;how-to&rdquo; guide, but I thought I would document some of the finer points, both for the reader&rsquo;s amusement, but also so that I will have a repository of my notes for when I invariably forget something I did and need to remind myself</p>
+<h2 id="the-install">The Install</h2>
+<p>I have a mac and I used  [Homebrew] (<a href="https://brew.sh">https://brew.sh</a>) to install it. I think it was as easy as</p>
+<pre><code>brew install hugo
+</code></pre><p>I am pretty sure you will need Go installed on your machine. I already had it, so it wasn&rsquo;t a factor in my installation.</p>
+<h2 id="the-quickstart">The Quickstart</h2>
+<p>Hugo&rsquo;s docs are pretty good, but I found the following tweaks made my life easier. By default, when you build your hugo site by calling hugo, all your public files to be published are built in a directory called &ldquo;public&rdquo;. Every time you build something, the public directory is updated.</p>
+<p>GitHub pages doesn&rsquo;t know what a public is. When you push your repository to GitHub, it(GitHub) is either looking in the root directory or for a directory called &ldquo;docs&rdquo;. If you really want to make your life hard, You can make intialize your public directory and set the remote as the github pagee repository. In other words, in this scenario:</p>
+<ol>
+<li>You have a directory with a github remote that stores your sources code for your github pages content.</li>
+<li>WIthin this directory, you have another git repository with a remote set up to the actual github pages repository. This is the directory that under normal circumstances would be publishes.</li>
+<li>Every time you rebuild your page, you would not only need to commit your source code, but you would also need to cd into your public folder and commit and push that as well.</li>
+</ol>
+<h2 id="make-your-life-easier-and-just-change-the-config">Make Your Life Easier and Just Change the Config</h2>
+<p>I used toml, so I added:</p>
+<pre><code>publishDir = &quot;docs&quot; 
+</code></pre><p>So know my repository is currently being built from the /docs folder in the master branch. Apparently, you can publish off of a different branch or you can choose to publish from the root of the repository. I imagine the latter scenario would be a requirementment if one were to be building a site using vanilla html/css.</p>
+<p>I don&rsquo;t know. I feel like my life is better this way. I have one remote which publish to my domain. I step and no scripts and all it involved was adding a line to my config.toml and making sure that matched my settings in github.</p>
+<h2 id="you-can-have-unlimited-github-pages">You can have unlimited GitHub Pages</h2>
+<p>I don&rsquo;t know whether this is true if you want to use custom url&rsquo;s, but you can set up multiple repositories to publish to their own directories. Effectively, you have a main site and everything after that is published under that domain. For instance, my main site publishes to <a href="https://jcaughlin.github.io">https://jcaughlin.github.io</a>. Any addtional github pages site, would be published as <a href="https://jcaughlin.github.io/repository-name-here">https://jcaughlin.github.io/repository-name-here</a>. Pretty simple.</p>
+<h2 id="themes">Themes?!@!@</h2>
+<p>I still don&rsquo;t know everything about using themes. In my case, I would prefer to learn how to build and maintain my own themes, but in the short run, it is easiest to visit <a href="https://themes.gohugo.io">Hugo Theme&rsquo;s</a> and pick one.</p>
+<p><!-- raw HTML omitted -->DO NOT CLONE!!!<!-- raw HTML omitted --> I don&rsquo;t care what the authors tell you. You don&rsquo;t really need or want to clones the theme&rsquo;s directory into your theme directory. You want to add it as a git submodule. Say you choose to use the hugh coder theme, this is your command: <code>git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder</code>
+It will create a new directory in your themes directory by the name of the theme. All you have to do is add the line ```theme = &ldquo;hugo-coder&rdquo;` ``to your config.toml in order to start using the theme. All themes by convention contain a directory with an example site which you can find in the exampleSite directory. To start quickest, you will want to check out the config file there as it will give you some ideas on the various key-values you would want to update on your own config.toml</p>
+<h2 id="you-must-git-init">You MUST git init</h2>
+<p>When you create your new site by typing <code>hugo new site &quot;your-clever-name-here</code>, a basic directory is generated for your site. In my correct opinion whether you intend to set this up with a remote or not, your next step should be to <code>git init</code>. I have used a few different frameworks and build tools and more and more are defaulting to having the project being git intialized as part of the &ldquo;new&rdquo; command. I haven&rsquo;t figured out if that is something I can change to be a defaut on my end. Nor, can I reason why this was included. I just took for granted that it was there until I did a <code>git status</code> and was confused as to why I got an error message. It is not the end of the world and I am sure some people prefer not being told they must be forced to git, but that&rsquo;s the way it works.</p>
+<p>I hope this helps someone. Hopefully, I will revise it and maybe expand it to a complete &ldquo;How I To&rdquo; guide featuring step by step instructions. Barring that, at least I have summarized for you the reader where I found my biggest pain points and where my opinions and steps diverged from the hugo docs.</p>
+
+</div>
+
+
+  </main>
+
+  <footer>
+  <div>
+    &copy; JSCaughlin 2020
+
+    &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+
+    
+  </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+          integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
+          crossorigin="anonymous"></script>
+
+  <script src="/js/blog.js"></script>
+
+  
+</body>
+</html>

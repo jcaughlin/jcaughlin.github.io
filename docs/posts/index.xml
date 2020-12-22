@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on A Man and his stuff</title>
+    <title>Posts on A Man and His Stuff</title>
     <link>https://jcaughlin.github.io/posts/</link>
-    <description>Recent content in Posts on A Man and his stuff</description>
+    <description>Recent content in Posts on A Man and His Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Dec 2020 15:18:41 -0600</lastBuildDate><atom:link href="https://jcaughlin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Dec 2020 17:01:15 -0600</lastBuildDate><atom:link href="https://jcaughlin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo and GitHub Pages-My Definitive Opinion</title>
+      <link>https://jcaughlin.github.io/posts/more-hugo/</link>
+      <pubDate>Mon, 21 Dec 2020 17:01:15 -0600</pubDate>
+      
+      <guid>https://jcaughlin.github.io/posts/more-hugo/</guid>
+      <description>So you want to deploy a site on GitHug Pages and you don&amp;rsquo;t want to use Jekyll?</description>
+    </item>
+    
     <item>
       <title>Why Hugo?</title>
       <link>https://jcaughlin.github.io/posts/howigothugotowork/</link>
