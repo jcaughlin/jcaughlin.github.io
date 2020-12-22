@@ -1,7 +1,7 @@
 baseURL = "https://jcaughlin.github.io"
 theme = "soho"
 languageCode = "en-us"
-title = "A Man and his stuff"
+title = "A Man and His Stuff"
 enableInlineShortcodes = true
 publishDir = "docs"
 
@@ -10,7 +10,7 @@ enableEmoji = true
 
 [params]
 author = "JS Caughlin"
-description = "A quest for mediocrity and happy"
+description = "A quest for Mediocrity and Clean Air"
 
 ## Set one of:
 # gravatar = "soho@example.com"
