@@ -19,8 +19,8 @@ Why I use Homebrew for some packages and not others is not something I always an
 
 ### Step 1: Prerequisites
 <P>You can install the following two packages using Homebrew, but I think they are important enough that you should visit their websites and be somewhat familar with where to find documentation.</p>
-- [git](https://git-scm.com) installed
-- Install [Go](http://golang.org)
+-  [git](https://git-scm.com) installed
+-  Install [Go](http://golang.org)
 
 ### Step 2: Install Hugo
 Assuming Homebrew is installed:
@@ -44,7 +44,7 @@ Typically, this is the result you will get:
 
 ### Step 3: Create a New Site
 ```
-hugo new site your-clever-site-name-goes here
+hugo new site your-clever-site-name-goes-here
 ```
 
 ### Step 4: git er done with git and github
