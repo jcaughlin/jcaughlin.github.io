@@ -2,7 +2,7 @@
 
 This site is my personal experience using: 
 
-[<img src="https://github.com/jcaughlin/jcaughlin.github.io/blob/master/static/images/hugo-logo-wide.svg" alt="Hugo" width=200>](https://gohugo.io)
+[<img src="https://github.com/jcaughlin/jcaughlin.github.io/blob/master/static/images/hugo-logo-wide.svg" alt="Hugo" width=500>](https://gohugo.io)
 
 <p>Hugo has nice things to say about Hugo:</p>
 
@@ -63,6 +63,23 @@ Hugo has a fairly robust selection of prebuilt [Hugp Theme](https://themes.gohug
 
 You don't have to chose a theme, you can create your own. However, if you want to get something published and reduce your learning curve, pick a theme. Not all themes are created equal. Some are more complex than others. 
 
-I wanted something that wasn't too complex, yet looked professional so I use [Soho](https://themes.gohugo.io/soho/)
+I wanted something that wasn't too complex, yet looked professional so I use:
+ [<img src="https://github.com/jcaughlin/jcaughlin.github.io/blob/master/static/images/soho_example.png" alt="soho" width=500>](https://themes.gohugo.io/soho/)
 
+
+* To Create Your Own Theme:
+    - cd into the root of your hugo project and:
+    ```
+    $ hugo new theme your-theme name
+    ```
+    This creates a directory in your themes folder
+* To add a prebuilt theme
+    - To install Soho as your default theme, first install this repository in the `themes/` directory:
+
+    $ git submodule add themes/https://github.com/alexandrevicenzi/soho.git
+
+Regardless of whether you build a theme or use a new one, to bootstrap it to your project update your `config.toml`:
+```
+    theme = "soho"
+```
 

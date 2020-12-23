@@ -28,6 +28,62 @@
 
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type":"Person",
+      "@id": "https://jcaughlin.github.io#author",
+      "name": "JS Caughlin",
+      "image": {
+        "@type":"ImageObject",
+        
+        "url": "https://jcaughlin.github.io/images/profile_pic.png"
+        
+      },
+      "description": "A Quest for Mediocrity and Clean Air"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jcaughlin.github.io#website",
+      "url": "https://jcaughlin.github.io",
+      "name": "A Man and His Stuff",
+      "description": "A Quest for Mediocrity and Clean Air",
+      "publisher": {
+        "@id": "https://jcaughlin.github.io#author"
+      },
+      "inLanguage": "en-us"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://jcaughlin.github.io/#webpage",
+      "url": "https://jcaughlin.github.io/",
+      "name": "A Man and His Stuff",
+      "isPartOf": {
+        "@id": "https://jcaughlin.github.io#website"
+      },
+      "about": {
+         "@id": "https://jcaughlin.github.io#author"
+      },
+      "dateModified": "2020-12-21T17:01:15-06:00",
+      "description": "A Quest for Mediocrity and Clean Air",
+      "inLanguage": "en-us",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://jcaughlin.github.io/"
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
   <link type="text/css"
         rel="stylesheet"
         href="/css/print.css"
@@ -176,11 +232,13 @@
 
   <footer>
   <div>
-    &copy; JSCaughlin 2020
+    <p>
+      &copy; JSCaughlin 2020
 
-    &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+      &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
 
-    
+      
+    </p>
   </div>
 </footer>
 
@@ -188,6 +246,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
           integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
           crossorigin="anonymous"></script>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/soho.js"></script>
 
   <script src="/js/blog.js"></script>
 

@@ -36,6 +36,96 @@
 
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type":"Person",
+      "@id": "https://jcaughlin.github.io#author",
+      "name": "JS Caughlin",
+      "image": {
+        "@type":"ImageObject",
+        
+        "url": "https://jcaughlin.github.io/images/profile_pic.png"
+        
+      },
+      "description": "A Quest for Mediocrity and Clean Air"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jcaughlin.github.io#website",
+      "url": "https://jcaughlin.github.io",
+      "name": "A Man and His Stuff",
+      "description": "A Quest for Mediocrity and Clean Air",
+      "publisher": {
+        "@id": "https://jcaughlin.github.io#author"
+      },
+      "inLanguage": "en-us"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://jcaughlin.github.io/posts/iamhugo/#webpage",
+      "url": "https://jcaughlin.github.io/posts/iamhugo/",
+      "name": "I made a site and it needed some content.",
+      "isPartOf": {
+        "@id": "https://jcaughlin.github.io#website"
+      },
+      "about": {
+         "@id": "https://jcaughlin.github.io#author"
+      },
+      "datePublished": "2020-12-14T15:03:09-06:00",
+      "dateModified": "2020-12-14T15:03:09-06:00",
+      "description": "When one is stuck at home due to the Covid\u0026rsquo;s and busy chasing two 9 year olds around and yet needs to stay up to date on technologies and show that one is employable, maybe they should create some things for people to look at.",
+      "inLanguage": "en-us",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://jcaughlin.github.io/posts/iamhugo/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "isPartOf": {
+        "@id": "https://jcaughlin.github.io/posts/iamhugo/#webpage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://jcaughlin.github.io/posts/iamhugo/#webpage"
+      },
+      "headline": "I made a site and it needed some content.",
+      "datePublished": "2020-12-14T15:03:09-06:00",
+      "dateModified": "2020-12-14T15:03:09-06:00",
+      "publisher": {
+        "@id": "https://jcaughlin.github.io#author"
+      },
+      "keywords": [
+      ],
+      "articleSection": [
+      ],
+      "inLanguage": "en-us",
+      "author": {
+        "@type": "Person",
+        "name":  null 
+      },
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://jcaughlin.github.io/posts/iamhugo/#comments"
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
   <link type="text/css"
         rel="stylesheet"
         href="/css/print.css"
@@ -123,12 +213,14 @@
 
   <main class="content container">
   <div class="post">
-  <h1>I made a site and it needed some content.</h1>
+  <h1 class="title">I made a site and it needed some content.</h1>
+  
 
   <div class="post-date">
     <time datetime="2020-12-14T15:03:09-0600">Dec 14, 2020</time> &middot; 2 min read
   </div>
 
+  <div>
   <p>When one is stuck at home due to the Covid&rsquo;s and busy chasing two 9 year olds around and yet needs to stay up to date on technologies and show that one is employable, maybe they should create some things for people to look at.</p>
 <p>So let me take a step back. At some point, I realized my previous life in sales just wasn&rsquo;t working out. There were many things that I felt that I did well, but apparently I wasn&rsquo;t always good at my TPS and it could get boring. Because I never made the top dollars, there wasn&rsquo;t enough incentive to stick around. I decided the shortest point between there and happiness was to go back to school and learn some computer stuffs.</p>
 <p>I am giving away my age by saying the only computer I owned as a child was a Commodore Vic-20 that I &ldquo;shared&rdquo; with my brother. I assume most people will know what the 20 stands for. If you do not, it doesn&rsquo;t stand for any of the following:
@@ -145,6 +237,45 @@
 <p>Computers! That&rsquo;s it.</p>
 <p>to be continued&hellip;</p>
 
+  </div>
+
+  <div>
+  <ul class="tags"></ul>
+</div>
+
+
+  <div class="share-buttons">
+  <a class="twitter-share-button"
+     href="#"
+     title="Share on Twitter"
+     data-url="https://jcaughlin.github.io/posts/iamhugo/"
+     data-text="I made a site and it needed some content."><i class="fab fa-twitter"></i></a>
+
+  <a class="linkedin-share-button"
+     href="#"
+     title="Share on LinkedIn"
+     data-url="https://jcaughlin.github.io/posts/iamhugo/"
+     data-text="I made a site and it needed some content."><i class="fab fa-linkedin-in"></i></a>
+
+  <a class="facebook-share-button"
+     href="#"
+     title="Share on Facebook"
+     data-url="https://jcaughlin.github.io/posts/iamhugo/"
+     data-text="I made a site and it needed some content."><i class="fab fa-facebook"></i></a>
+
+  <a class="telegram-share-button"
+     href="#"
+     title="Share on Telegram"
+     data-url="https://jcaughlin.github.io/posts/iamhugo/"
+     data-text="I made a site and it needed some content."><i class="fab fa-telegram"></i></a>
+
+  <a class="pinterest-share-button"
+     href="#"
+     title="Share on Pinterest"
+     data-url="https://jcaughlin.github.io/posts/iamhugo/"
+     data-text="I made a site and it needed some content."><i class="fab fa-pinterest"></i></a>
+</div>
+
 </div>
 
 
@@ -152,11 +283,13 @@
 
   <footer>
   <div>
-    &copy; JSCaughlin 2020
+    <p>
+      &copy; JSCaughlin 2020
 
-    &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+      &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
 
-    
+      
+    </p>
   </div>
 </footer>
 
@@ -164,6 +297,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
           integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
           crossorigin="anonymous"></script>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/soho.js"></script>
 
   <script src="/js/blog.js"></script>
 

@@ -36,6 +36,96 @@
 
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type":"Person",
+      "@id": "https://jcaughlin.github.io#author",
+      "name": "JS Caughlin",
+      "image": {
+        "@type":"ImageObject",
+        
+        "url": "https://jcaughlin.github.io/images/profile_pic.png"
+        
+      },
+      "description": "A Quest for Mediocrity and Clean Air"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jcaughlin.github.io#website",
+      "url": "https://jcaughlin.github.io",
+      "name": "A Man and His Stuff",
+      "description": "A Quest for Mediocrity and Clean Air",
+      "publisher": {
+        "@id": "https://jcaughlin.github.io#author"
+      },
+      "inLanguage": "en-us"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://jcaughlin.github.io/posts/morehugo/#webpage",
+      "url": "https://jcaughlin.github.io/posts/morehugo/",
+      "name": "Hugo and GitHub Pages-My Definitive Opinion",
+      "isPartOf": {
+        "@id": "https://jcaughlin.github.io#website"
+      },
+      "about": {
+         "@id": "https://jcaughlin.github.io#author"
+      },
+      "datePublished": "2020-12-21T17:01:15-06:00",
+      "dateModified": "2020-12-21T17:01:15-06:00",
+      "description": "So you want to deploy a site on GitHug Pages and you don\u0026rsquo;t want to use Jekyll?",
+      "inLanguage": "en-us",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://jcaughlin.github.io/posts/morehugo/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "isPartOf": {
+        "@id": "https://jcaughlin.github.io/posts/morehugo/#webpage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://jcaughlin.github.io/posts/morehugo/#webpage"
+      },
+      "headline": "Hugo and GitHub Pages-My Definitive Opinion",
+      "datePublished": "2020-12-21T17:01:15-06:00",
+      "dateModified": "2020-12-21T17:01:15-06:00",
+      "publisher": {
+        "@id": "https://jcaughlin.github.io#author"
+      },
+      "keywords": [
+      ],
+      "articleSection": [
+      ],
+      "inLanguage": "en-us",
+      "author": {
+        "@type": "Person",
+        "name":  null 
+      },
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://jcaughlin.github.io/posts/morehugo/#comments"
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
   <link type="text/css"
         rel="stylesheet"
         href="/css/print.css"
@@ -123,12 +213,14 @@
 
   <main class="content container">
   <div class="post">
-  <h1>Hugo and GitHub Pages-My Definitive Opinion</h1>
+  <h1 class="title">Hugo and GitHub Pages-My Definitive Opinion</h1>
+  
 
   <div class="post-date">
     <time datetime="2020-12-21T17:01:15-0600">Dec 21, 2020</time> &middot; 5 min read
   </div>
 
+  <div>
   <p>So you want to deploy a site on GitHug Pages and you don&rsquo;t want to use Jekyll? Guess what? You don&rsquo;t have to! They can&rsquo;t make you do anything.
 I don&rsquo;t think I am intending this to be a &ldquo;how-to&rdquo; guide, but I thought I would document some of the finer points, both for the reader&rsquo;s amusement, but also so that I will have a repository of my notes for when I invariably forget something I did and need to remind myself</p>
 <h2 id="the-install">The Install</h2>
@@ -158,6 +250,45 @@ It will create a new directory in your themes directory by the name of the theme
 <p>When you create your new site by typing <code>hugo new site &quot;your-clever-name-here</code>, a basic directory is generated for your site. In my correct opinion whether you intend to set this up with a remote or not, your next step should be to <code>git init</code>. I have used a few different frameworks and build tools and more and more are defaulting to having the project being git intialized as part of the &ldquo;new&rdquo; command. I haven&rsquo;t figured out if that is something I can change to be a defaut on my end. Nor, can I reason why this was included. I just took for granted that it was there until I did a <code>git status</code> and was confused as to why I got an error message. It is not the end of the world and I am sure some people prefer not being told they must be forced to git, but that&rsquo;s the way it works.</p>
 <p>I hope this helps someone. Hopefully, I will revise it and maybe expand it to a complete &ldquo;How I To&rdquo; guide featuring step by step instructions. Barring that, at least I have summarized for you the reader where I found my biggest pain points and where my opinions and steps diverged from the hugo docs.</p>
 
+  </div>
+
+  <div>
+  <ul class="tags"></ul>
+</div>
+
+
+  <div class="share-buttons">
+  <a class="twitter-share-button"
+     href="#"
+     title="Share on Twitter"
+     data-url="https://jcaughlin.github.io/posts/morehugo/"
+     data-text="Hugo and GitHub Pages-My Definitive Opinion"><i class="fab fa-twitter"></i></a>
+
+  <a class="linkedin-share-button"
+     href="#"
+     title="Share on LinkedIn"
+     data-url="https://jcaughlin.github.io/posts/morehugo/"
+     data-text="Hugo and GitHub Pages-My Definitive Opinion"><i class="fab fa-linkedin-in"></i></a>
+
+  <a class="facebook-share-button"
+     href="#"
+     title="Share on Facebook"
+     data-url="https://jcaughlin.github.io/posts/morehugo/"
+     data-text="Hugo and GitHub Pages-My Definitive Opinion"><i class="fab fa-facebook"></i></a>
+
+  <a class="telegram-share-button"
+     href="#"
+     title="Share on Telegram"
+     data-url="https://jcaughlin.github.io/posts/morehugo/"
+     data-text="Hugo and GitHub Pages-My Definitive Opinion"><i class="fab fa-telegram"></i></a>
+
+  <a class="pinterest-share-button"
+     href="#"
+     title="Share on Pinterest"
+     data-url="https://jcaughlin.github.io/posts/morehugo/"
+     data-text="Hugo and GitHub Pages-My Definitive Opinion"><i class="fab fa-pinterest"></i></a>
+</div>
+
 </div>
 
 
@@ -165,11 +296,13 @@ It will create a new directory in your themes directory by the name of the theme
 
   <footer>
   <div>
-    &copy; JSCaughlin 2020
+    <p>
+      &copy; JSCaughlin 2020
 
-    &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+      &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
 
-    
+      
+    </p>
   </div>
 </footer>
 
@@ -177,6 +310,10 @@ It will create a new directory in your themes directory by the name of the theme
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
           integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
           crossorigin="anonymous"></script>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/soho.js"></script>
 
   <script src="/js/blog.js"></script>
 

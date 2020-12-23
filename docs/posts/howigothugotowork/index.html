@@ -36,6 +36,96 @@
 
 
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type":"Person",
+      "@id": "https://jcaughlin.github.io#author",
+      "name": "JS Caughlin",
+      "image": {
+        "@type":"ImageObject",
+        
+        "url": "https://jcaughlin.github.io/images/profile_pic.png"
+        
+      },
+      "description": "A Quest for Mediocrity and Clean Air"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jcaughlin.github.io#website",
+      "url": "https://jcaughlin.github.io",
+      "name": "A Man and His Stuff",
+      "description": "A Quest for Mediocrity and Clean Air",
+      "publisher": {
+        "@id": "https://jcaughlin.github.io#author"
+      },
+      "inLanguage": "en-us"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://jcaughlin.github.io/posts/howigothugotowork/#webpage",
+      "url": "https://jcaughlin.github.io/posts/howigothugotowork/",
+      "name": "Why Hugo?",
+      "isPartOf": {
+        "@id": "https://jcaughlin.github.io#website"
+      },
+      "about": {
+         "@id": "https://jcaughlin.github.io#author"
+      },
+      "datePublished": "2020-12-14T15:18:41-06:00",
+      "dateModified": "2020-12-14T15:18:41-06:00",
+      "description": "Why Hugo?  I was hoping to learn some Go. This is being hosted by github pages, so I wanted to learn more about static page generators.",
+      "inLanguage": "en-us",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "https://jcaughlin.github.io/posts/howigothugotowork/"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "isPartOf": {
+        "@id": "https://jcaughlin.github.io/posts/howigothugotowork/#webpage"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://jcaughlin.github.io/posts/howigothugotowork/#webpage"
+      },
+      "headline": "Why Hugo?",
+      "datePublished": "2020-12-14T15:18:41-06:00",
+      "dateModified": "2020-12-14T15:18:41-06:00",
+      "publisher": {
+        "@id": "https://jcaughlin.github.io#author"
+      },
+      "keywords": [
+      ],
+      "articleSection": [
+      ],
+      "inLanguage": "en-us",
+      "author": {
+        "@type": "Person",
+        "name":  null 
+      },
+      "potentialAction": [
+        {
+          "@type": "CommentAction",
+          "name": "Comment",
+          "target": [
+            "https://jcaughlin.github.io/posts/howigothugotowork/#comments"
+          ]
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+
+
   <link type="text/css"
         rel="stylesheet"
         href="/css/print.css"
@@ -123,12 +213,14 @@
 
   <main class="content container">
   <div class="post">
-  <h1>Why Hugo?</h1>
+  <h1 class="title">Why Hugo?</h1>
+  
 
   <div class="post-date">
     <time datetime="2020-12-14T15:18:41-0600">Dec 14, 2020</time> &middot; 1 min read
   </div>
 
+  <div>
   <h1 id="why-hugo">Why Hugo?</h1>
 <ol>
 <li>I was hoping to learn some Go.</li>
@@ -141,6 +233,45 @@
 <p>If you are reading this, I haven&rsquo;t done much editing for which I profusely apologize for.
 1)</p>
 
+  </div>
+
+  <div>
+  <ul class="tags"></ul>
+</div>
+
+
+  <div class="share-buttons">
+  <a class="twitter-share-button"
+     href="#"
+     title="Share on Twitter"
+     data-url="https://jcaughlin.github.io/posts/howigothugotowork/"
+     data-text="Why Hugo?"><i class="fab fa-twitter"></i></a>
+
+  <a class="linkedin-share-button"
+     href="#"
+     title="Share on LinkedIn"
+     data-url="https://jcaughlin.github.io/posts/howigothugotowork/"
+     data-text="Why Hugo?"><i class="fab fa-linkedin-in"></i></a>
+
+  <a class="facebook-share-button"
+     href="#"
+     title="Share on Facebook"
+     data-url="https://jcaughlin.github.io/posts/howigothugotowork/"
+     data-text="Why Hugo?"><i class="fab fa-facebook"></i></a>
+
+  <a class="telegram-share-button"
+     href="#"
+     title="Share on Telegram"
+     data-url="https://jcaughlin.github.io/posts/howigothugotowork/"
+     data-text="Why Hugo?"><i class="fab fa-telegram"></i></a>
+
+  <a class="pinterest-share-button"
+     href="#"
+     title="Share on Pinterest"
+     data-url="https://jcaughlin.github.io/posts/howigothugotowork/"
+     data-text="Why Hugo?"><i class="fab fa-pinterest"></i></a>
+</div>
+
 </div>
 
 
@@ -148,11 +279,13 @@
 
   <footer>
   <div>
-    &copy; JSCaughlin 2020
+    <p>
+      &copy; JSCaughlin 2020
 
-    &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
+      &middot; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>
 
-    
+      
+    </p>
   </div>
 </footer>
 
@@ -160,6 +293,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
           integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0="
           crossorigin="anonymous"></script>
+
+
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/soho.js"></script>
 
   <script src="/js/blog.js"></script>
 
