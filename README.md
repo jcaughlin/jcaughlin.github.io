@@ -59,11 +59,11 @@ There are much better places to get an opinion on a good .gitignore file would b
 **Question:* * How many times have you tried to add a remote repository and got an error message because you initialized your project, but forgot to do an initial commit? I swear every other time I do this.
 
 ### Step 5: Add a Theme
-Hugo has a fairly robust selection of prebuilt [Hugp Theme](https://themes.gohugo.io)
+Hugo has a fairly robust selection of prebuilt [Hugo Themes](https://themes.gohugo.io)
 
 You don't have to chose a theme, you can create your own. However, if you want to get something published and reduce your learning curve, pick a theme. Not all themes are created equal. Some are more complex than others. 
 
-I wanted something that wasn't too complex, yet looked professional so I use [Soho]((https://themes.gohugo.io/soho/):
+I wanted something that wasn't too complex, yet looked professional so I use [Soho](https://themes.gohugo.io/soho/):
  [<img src="https://github.com/jcaughlin/jcaughlin.github.io/blob/master/static/images/soho_example.png" alt="soho" width=500>](https://themes.gohugo.io/soho/)
 
 
