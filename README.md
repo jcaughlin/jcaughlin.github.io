@@ -63,11 +63,12 @@ Hugo has a fairly robust selection of prebuilt [Hugp Theme](https://themes.gohug
 
 You don't have to chose a theme, you can create your own. However, if you want to get something published and reduce your learning curve, pick a theme. Not all themes are created equal. Some are more complex than others. 
 
-I wanted something that wasn't too complex, yet looked professional so I use:
+I wanted something that wasn't too complex, yet looked professional so I use [Soho]((https://themes.gohugo.io/soho/):
  [<img src="https://github.com/jcaughlin/jcaughlin.github.io/blob/master/static/images/soho_example.png" alt="soho" width=500>](https://themes.gohugo.io/soho/)
 
 
 * To Create Your Own Theme:
+
     - cd into the root of your hugo project and:
     ```
     $ hugo new theme your-theme name
