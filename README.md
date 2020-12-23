@@ -26,19 +26,19 @@ Why I use Homebrew for some packages and not others is not something I always an
 
 ### Step 2: Install Hugo
 Assuming Homebrew is installed:
-```
-brew install hugo
-```
+
+$ brew install hugo
+
 To confirm that hugo is installed:
-```
-hugo version
-```
+
+$ hugo version
+
 Please note that it is just version with no '-'. It isn't `hugo -v` either. The first earns you an error message and the latter will try to build a site verbosely. I suppose if either of these things happen you know hugo is installed and doing something, but if you actually want to know what version you are using stick with `hugo version`.
 
 Can I just stop assuming? Anyways, if you aren't familiar with homebrew and where the magic happens, don't forget the handy which command:
-```
-which hugo
-```
+
+$ which hugo
+
 Typically, this is the result you will get:
 ```
 /usr/local/bin/hugo
@@ -75,10 +75,13 @@ I wanted something that wasn't too complex, yet looked professional so I use [So
     ```
     This creates a directory in your themes folder
 * To add a prebuilt theme
-    - To install Soho as your default theme, first install this repository in the `themes/` directory:
+    - To install Soho or any other prebuilt theme as yout default theme: 
 
     $ git submodule add themes/https://github.com/alexandrevicenzi/soho.git
 
+    $ git submodule add themes/location.of.remote
+
+    
 Regardless of whether you build a theme or use a new one, to bootstrap it to your project update your `config.toml`:
 ```
     theme = "soho"
