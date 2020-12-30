@@ -6,7 +6,16 @@
     <description>Recent content in Posts on A Man and His Stuff</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Dec 2020 17:01:15 -0600</lastBuildDate><atom:link href="https://jcaughlin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Dec 2020 15:01:44 -0600</lastBuildDate><atom:link href="https://jcaughlin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This Is Liam</title>
+      <link>https://jcaughlin.github.io/posts/thisisliam/</link>
+      <pubDate>Wed, 30 Dec 2020 15:01:44 -0600</pubDate>
+      
+      <guid>https://jcaughlin.github.io/posts/thisisliam/</guid>
+      <description>This is Liam </description>
+    </item>
+    
     <item>
       <title>Hugo and GitHub Pages-My Definitive Opinion</title>
       <link>https://jcaughlin.github.io/posts/morehugo/</link>
