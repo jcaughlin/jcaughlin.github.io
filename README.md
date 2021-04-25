@@ -76,10 +76,9 @@ I wanted something that wasn't too complex, yet looked professional so I use [So
     This creates a directory in your themes folder
 * To add a prebuilt theme
     - To install Soho or any other prebuilt theme as yout default theme: 
+    $ cd themes
 
-    $ git submodule add themes/https://github.com/alexandrevicenzi/soho.git
-
-    $ git submodule add themes/location.of.remote
+    $ git submodule add https://github.com/alexandrevicenzi/soho.git
 
     
 Regardless of whether you build a theme or use a new one, to bootstrap it to your project update your `config.toml`:

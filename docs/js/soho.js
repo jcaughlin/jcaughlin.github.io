@@ -27,15 +27,6 @@ $(document).ready(function(){
     window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, "_blank").focus();
   });
 
-  $(".telegram-share-button").click(function (e) {
-    e.preventDefault();
-    var self = $(this);
-    var url = encodeURIComponent(self.data("url"));
-    var text = encodeURIComponent(self.data("text"));
-
-    window.open(`https://t.me/share/url?url=${url}&text=${text}`, "_blank").focus();
-  });
-
   $(".pinterest-share-button").click(function (e) {
     e.preventDefault();
     var self = $(this);
