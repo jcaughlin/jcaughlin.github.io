@@ -8,6 +8,6 @@ date: 2021-04-24T19:15:32-05:00
 
 - I made a dynamic letter interface: [Denial Letter](https://jcaughlin.github.io/dynamic-letter/)
 
-- Example Drupal Start: [Welcome to Stonecester](http://3.22.228.59)
+- Example Drupal Project: [Welcome to Stonecester](http://3.22.228.59)
 
 
