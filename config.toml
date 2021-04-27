@@ -11,6 +11,7 @@ enableEmoji = true
 [params]
 author = "JS Caughlin"
 description = "A Quest for Mediocrity and Clean Air"
+pronouns = "he/him/his or hey you"
 
 ## Set one of:
 # gravatar = "soho@example.com"
