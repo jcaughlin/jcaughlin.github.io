@@ -1,3 +1,7 @@
 .sidebar-alignment {
     text-align: left;
 }
+
+.sidebar-about h2 {
+    color:white;
+}
