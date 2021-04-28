@@ -20,10 +20,10 @@
         <h1>{{ .Site.Title }}</h1>
   
         {{ with .Site.Params.description }}
-        <p class="lead">{{.}}</p>
+        <h2>{{.}}</h2>
         {{end}}
         {{ with .Site.Params.pronouns }}
-        <p class="lead">Pronouns: </p> <p>{{.}}</p>
+        <h2 class="sidebar-alignment">Pronouns: {{.}}</h2>
         {{end}}
       </div>
   
